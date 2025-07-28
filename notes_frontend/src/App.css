@@ -23,8 +23,8 @@
 
 .App {
   text-align: center;
-  /* Apply a soft yellow gradient for a light, minimalistic background across the whole app */
-  background: linear-gradient(135deg, #fffde4 0%, #fffac1 50%, #ffe680 100%);
+  /* Apply a soft blue gradient for a light, minimalistic background across the whole app */
+  background: linear-gradient(135deg, #e3f0ff 0%, #b3d8fd 50%, #d2e7fa 100%);
   color: var(--text-primary);
   min-height: 100vh;
   transition: background-color 0.3s ease, color 0.3s ease;
