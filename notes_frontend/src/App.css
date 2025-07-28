@@ -58,6 +58,67 @@
   transition: color 0.3s ease;
 }
 
+/* ===== Custom Minimal Notes App Styles ===== */
+.notes-list {
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+
+.note-item {
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  transition: box-shadow .2s;
+  cursor: pointer;
+}
+
+.note-item:hover, .note-item:focus-within {
+  box-shadow: 0 2px 18px 0 #d4e6fa33;
+}
+
+.note-title {
+  font-weight: 600;
+}
+
+/* Modal Overlay Styles */
+.modal-overlay {
+  background: rgba(0,0,0,0.18);
+}
+
+/* Modal Body */
+.modal-body {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+}
+
+.notes-empty {
+  color: #bbb;
+  margin-top: 40px;
+  font-size: 1.05em;
+}
+
+.small-btn {
+  min-width: 70px;
+  min-height: 32px;
+}
+
+button:disabled, .btn[disabled], .small-btn[disabled] {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .modal-body {
+    padding: 18px 8px 18px 8px;
+    min-width: unset;
+    max-width: 98vw;
+  }
+}
+
+
 .theme-toggle {
   position: absolute;
   top: 20px;
