@@ -459,10 +459,10 @@ function App() {
   // ----- Render -----
   return (
     <div
+      className="App"
       style={{
         fontFamily:
           "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
-        background: "var(--bg-primary)",
         minHeight: "100vh",
         margin: 0,
         padding: 0,
